@@ -1,0 +1,225 @@
+
+body {
+    background: url(https://149469871.v2.pressablecdn.com/wp-content/uploads/2020/03/960592.jpg) no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+    list-style: none;
+    width: 100%;
+}
+ul li {
+    list-style: none;
+    float: left;
+	width: 14.28571429%;
+	height: 40px;
+	background-color: rgb(54, 160, 209);
+	line-height: 40px;
+	text-indent: 10px;
+    font-size: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover {
+    background-color: rgb(42, 109, 153);
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 314px;
+    position: relative;
+}
+#News2 {
+    margin: 0px
+    padding: 0px;
+}
+#nav {
+    width: 100%;
+    top: 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+header {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(54, 193, 214);
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    text-align: center;
+    padding-top: 25px;
+}
+#MEN {
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    width: 600px;
+    background-color: rgb(50, 176, 214, 0.4);
+}
+#MEN:hover {
+    background-color: rgb(50, 176, 214);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#MEN img {
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+}
+#onder {
+    padding: 15px;
+    text-align: left;
+}
+#kaas {
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-right: 20%;
+}
+#E {
+    background-color: rgba(253, 0, 42, 0.404);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+#uit {
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 500px;
+    background-color: rgba(29, 142, 207, 0.685);
+    width: 60%;
+}
+
+#chip {
+    width: 71.43%;
+}
+#p1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 60%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+#knop {
+    padding: 10px;
+}
+.btn-group .button {
+    background-color: #00588b; 
+    border: 1px solid rgba(17, 109, 170, 0.24);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+  }
+  
+
+  
+  .btn-group .button:hover {
+    background-color: #00b7ff;
+  }
+
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    width: 57%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+  .btn-group .button1 {
+    background-color: #00588b; 
+    border: 1px solid rgba(17, 109, 170, 0.24);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: center;
+    margin-right: 10px;
+  }
+  .btn-group .button1:hover {
+    background-color: #00b7ff;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 100%;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+.middle ul li {
+    width: 100%;
+}
